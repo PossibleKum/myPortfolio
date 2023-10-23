@@ -1,0 +1,63 @@
+footer{
+	text-align: center;
+color: white;
+background: gray;}
+header{text-align: center;
+font-family:consolas;
+font-size: 10px;
+padding: 3px;
+background:skyblue;
+margin-top: 10px;
+border-radius: 10px;
+}
+header nav{
+	text-align: right;
+}
+.greetings{
+	font-family: georgia,200;
+	text-align: center;
+	font-size: 21px;
+}
+
+main>p{
+text-align: center;
+
+}
+
+article h2{
+	text-align: center;
+	font-weight: 500;
+	font-style: serif;
+	font-family: georgia;
+}
+.myAbout{
+	background-color:lightgray;
+
+}
+p{
+	padding: 10px;
+	margin: 5px;
+
+}
+main img{
+	border-radius: 50%;
+    background: green;
+    margin-left: 40%;
+}
+
+/*styled links using pseudo classes*/
+.shiftToTheright{
+	text-align: right;
+}
+a:link{
+	color: blue;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:green;
+}
+a:active{
+	color: yellow;
+}
